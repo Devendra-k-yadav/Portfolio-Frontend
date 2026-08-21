@@ -11,12 +11,10 @@ const Hero = () => {
             <span className="dot" /> Available for opportunities
           </div>
           <h1>
-            Hi, I&apos;m <span className="gradient">Devendra Yadav</span> 👋
+            Building <span className="gradient">scalable web products</span> with clean code.
           </h1>
           <p>
-            MERN Stack Developer with 2+ years of experience in building
-            scalable web applications using React.js, Node.js, Express.js and
-            MongoDB. Love turning ideas into real-world products.
+            I&apos;m <strong>Devendra Yadav</strong>, a Full Stack MERN Developer with <strong>2+ years of experience</strong> building responsive React applications, secure Node.js APIs and production-ready web solutions.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#projects">
