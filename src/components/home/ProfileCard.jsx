@@ -6,7 +6,7 @@ const ProfileCard = () => {
       <div className="tech-orbit orbit-js">JS</div>
       <div className="profile-ring">
         <div className="profile-inner">
-          <img src="/hero.jpeg" alt="Profile" className="profile-img" />
+          <img src="/devlogo.png" alt="Profile" className="profile-img" />
         </div>
       </div>
       <div className="profile-badge">✦ MERN Stack Developer</div>
