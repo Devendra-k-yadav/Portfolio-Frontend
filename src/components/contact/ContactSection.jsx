@@ -86,7 +86,7 @@ const ContactSection = () => {
                     Email<span>devendrapratap992@gmail.com</span>
                   </strong>
                 </a>
-                <a href="tel:+91xxxxxxxxx">
+                <a href="tel:+918169164184">
                   <span>⌕</span>
                   <strong>
                     Phone<span>+91 8169164184</span>
