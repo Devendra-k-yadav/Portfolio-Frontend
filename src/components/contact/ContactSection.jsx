@@ -89,7 +89,7 @@ const ContactSection = () => {
                 <a href="tel:+91xxxxxxxxx">
                   <span>⌕</span>
                   <strong>
-                    Phone<span>+91 xxxxxxxxxx</span>
+                    Phone<span>+91 8169164184</span>
                   </strong>
                 </a>
                 <div>
