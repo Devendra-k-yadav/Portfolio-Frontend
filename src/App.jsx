@@ -4,6 +4,7 @@ import BackToTop from "./components/common/BackToTop";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import Home from "./pages/public/Home";
+import AIChatbot from "./components/AIChatbot/AIChatbot";
 import useScrollReveal from "./hooks/useScrollReveal";
 import "./styles/global.css";
 
@@ -39,6 +40,8 @@ const App = () => {
       <Home />
       <Footer />
       <BackToTop visible={showTop} />
+
+      <AIChatbot />
     </>
   );
 };
