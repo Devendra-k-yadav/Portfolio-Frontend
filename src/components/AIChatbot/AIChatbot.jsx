@@ -285,18 +285,7 @@ const AIChatbot = () => {
             Powered by AI • Portfolio Assistant
           </div>
 
-          {/* ===============================
-              Mobile Close Button
-          =============================== */}
-          <button
-            type="button"
-            className="chat-mobile-close"
-            onClick={handleClose}
-            aria-label="Close chatbot"
-          >
-            <X size={20} />
-          </button>
-
+          
         </div>
       )}
     </>
