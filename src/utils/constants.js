@@ -64,13 +64,13 @@ const projects = [
     githubUrl: "https://github.com/Devendra-k-yadav",
   },
   {
-    number: "02 /LeelaMart- E-COMMERCE",
+    number: "02 /Indishoppe- E-COMMERCE",
     title: "Full Stack Web Application",
     description:
       "Responsive MERN application with API integration, authentication, reusable UI components and database-backed workflows.",
     tags: ["MERN","React","Axios", "Node.js", "MongoDB", "JWT", "Redis", "Docker"],
-    image: "/leelamart-preview.jpg",
-    liveUrl: "https://leelamart.in/",
+    image: "/indishoppe_preview.jpg",
+    liveUrl: "https://indishoppe.in/",
     githubUrl: "https://github.com/Devendra-k-yadav",
   },
   {
