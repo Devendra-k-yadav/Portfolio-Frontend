@@ -20,6 +20,7 @@ body {
   background: var(--bg);
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
   line-height: 1.55;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -1128,5 +1129,28 @@ h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column-reverse; /* Isse circle/graphic wala part niche aa jayega aur text upar chal jayega */
+    gap: 30px;
+    text-align: center;
+  }}
 
+/* --- Mobile View Fixes for ProfileCard --- */
+@media (max-width: 768px) {
+  .profile-wrap {
+    transform: scale(0.85); /* Pure card ko mobile par thoda compact karne ke liye */
+    margin: -10px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Agar orbits bilkul chipak rahe hain ya hide ho rahe hain, toh unka radius thoda expand ya adjust kar sakte hain */
+  .tech-orbit {
+    z-index: 5; /* Taaki yeh hamesha ring ke upar dikhein, peeche na chupein */
+  }
+}
 
